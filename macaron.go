@@ -30,9 +30,10 @@ import (
 	"gopkg.in/ini.v1"
 
 	"github.com/go-macaron/inject"
+	"github.com/henrylee2cn/ini"
 )
 
-const _VERSION = "1.3.1.0306"
+const _VERSION = "1.3.1.0307"
 
 func Version() string {
 	return _VERSION
